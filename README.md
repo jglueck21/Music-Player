@@ -1,9 +1,9 @@
 # Music-Player
 **Ziel:** Eine einfache Web-App, mit der Nutzer Songs hochladen, abspielen und Playlists verwalten können.
 Tools:
-https://react.dev/
-https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API
-https://tailwindcss.com/
+- https://react.dev/
+- https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API
+- https://tailwindcss.com/
 
 ---
 
