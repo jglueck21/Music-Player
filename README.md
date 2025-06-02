@@ -113,4 +113,7 @@ Currently a **solo project**, but could be split as:
 ## 📌 Status
 
 🚧 Still under development.  
-More features like Dark-Mode are planned.
+Following Features are still planned:
+- Dark Mode
+- Mobile Support
+
