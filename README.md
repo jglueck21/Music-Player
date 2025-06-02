@@ -1,90 +1,130 @@
-# Music-Player
-**Ziel:** Eine einfache Web-App, mit der Nutzer Songs hochladen, abspielen und Playlists verwalten können.
-Tools:
-- https://react.dev/
-- https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API
-- https://tailwindcss.com/
+# 🎵 Music Player
+
+A simple **web-based music player** that lets users upload songs, play them, and manage playback — all stored locally using the **IndexedDB API**.
 
 ---
 
-## **1. Technologie-Stack**
+## 🛠️ Tech Stack
 
-- **Frontend:** React (Vite oder Create React App), Tailwind CSS
-- **Audio API:** Web Audio API
-- **Speicherung:** IndexedDB (lokale Speicherung)
-
----
-
-## **2. Funktionen & Features**
-
-### **Grundfunktionen** (MVP – Minimal Viable Product)
-
-✅ **Song hochladen & abspielen** (lokale Dateien)  
-✅ **Lautstärke, Play/Pause, Skip, Loop**  
-✅ **Letzte Wiedergabe speichern (IndexedDB)**
-
-### **Erweiterungen (Optional)**
-
-🚀 **Equalizer mit Visualisierung (Canvas API)**  
-🚀 **Drag & Drop für Playlists**  
-🚀 **Dark Mode**  
-🚀 **Cloud-Speicherung mit Firebase**
+- **Frontend:** HTML, CSS, JavaScript (Vanilla)
+- **Audio:** Web Audio API
+- **Storage:** IndexedDB (for offline persistence)
 
 ---
 
-## **3. Projektstruktur (Ordner & Dateien)**
+## ✨ Features
 
-````
-music-player/
-├── node_modules/ 
-│── public/                # Statische Dateien (Icons, Logo, etc.)
-│── src/
-│   ├── components/        # Wiederverwendbare Komponenten
-│   │   ├── PlayerControls.jsx
-│   │   ├── Progress.jsx
-│   │   ├── ExtraControls.jsx
-│   │   ├── Visualizer.jsx
-|   |   ├── Volume.jsx
-|   |   ├── SongImage.jsx
-|   |   ├── SongDetails.jsx
-│   ├── styles/
-|   |   ├── PlayerControls.css
-|   |   ├── Progress.css
-|   |   ├── SongDetails.css
-|   |   ├── Volume.css
-│   ├── App.jsx
-│   ├── main.jsx
-|   ├── index.css
-│── package.json
-│── tailwind.config.js
-│── index.html
-│── README.md
-````
+### ✅ Core Functionality (MVP)
+
+- Upload and play audio files from your device  
+- Playback controls: Play / Pause / Skip / Loop / Volume  
+- Automatically saves last played song (IndexedDB)
+
+### ✅ Advanced Features
+
+- Visualizer using Web Audio API  
+- Mobile responsive layout  
+- Dark mode  
+- Offline-capable via IndexedDB
 
 ---
 
-## **4. Entwicklungsphasen & Meilensteine**
+## 📁 Project Structure
 
-### **Phase 1 – Grundstruktur & Basisfunktionen**
+```
+Music-player/
+├── Assets/
+│   ├── indexedDB.js
+│   ├── Themes.css
+│   ├── Themes.js
+│   └── Songs.mp3
+│
+├── Library/
+│   ├── assets/
+│   ├── Playlist/
+│   │   ├── Playlist.html
+│   │   ├── style.css
+│   │   └── script.js
+│   ├── Library.html
+│   ├── Style.css
+│   └── script.js
+│
+├── Player/
+│   ├── Player/
+│   │   ├── Player.html
+│   │   ├── style.css
+│   │   └── script.js
+│   └── Player-vinyl/
+│       ├── Player-vinyl.html
+│       ├── style.css
+│       └── script.js
+│
+├── Settings/
+│   ├── Player/
+│   │   ├── Player-settings.html
+│   │   ├── Style.css
+│   │   └── script.js
+│   ├── Themes/
+│   │   ├── Themes.html
+│   │   ├── style.css
+│   │   └── Script.js
+│   ├── Settings.html
+│   ├── style.css
+│   └── script.js
+│
+├── index.html
+├── style.css
+└── script.js
+```
 
-✅ React-Projekt aufsetzen  
-✅ UI-Design mit Tailwind CSS  
-✅ Hochladen & Abspielen von Songs mit `FileReader`  
-✅ IndexedDB für lokale Speicherung integrieren
-
-### **Phase 2 –  Steuerung**
-
-✅ Audio-Steuerung (Play, Pause, Skip, Loop, Lautstärke)  
-✅ Letzte Wiedergabe speichern
-
-### **Phase 3 – Erweiterungen & Feinschliff
-
-✅ Equalizer mit Web Audio API  
-✅ Drag & Drop für Playlists  
-✅ Mobile-Optimierung & Dark Mode  
 
 ---
 
-## **5. Aufgabenteilung für 3 Personen**
+> ✅ No frameworks. This project is built with clean, vanilla HTML/CSS/JS for better control and understanding.
 
-Noch nicht sicher
+---
+
+## 🧭 Development Phases
+
+### Phase 1 – Core UI and Functionality
+
+- ✅ Built basic layout with HTML and CSS  
+- ✅ Set up audio controls with JavaScript  
+- ✅ Integrated IndexedDB to persist song info
+
+### Phase 2 – Enhancements
+
+- ✅ Added song visualizer using Web Audio API  
+- ✅ Implemented drag-and-drop UI for uploads  
+- ✅ Created mobile-first responsive layout  
+- ✅ Introduced Dark Mode toggle
+
+---
+
+## 👨‍💻 Team Setup (for potential collaboration)
+
+Currently a **solo project**, but could be split as:
+
+- 🎨 UI & Styling  
+- 🎵 Audio Control & Playback Logic  
+- 💾 Data Persistence (IndexedDB & State Logic)
+
+---
+
+## 🔗 Live Demo
+
+_You can host this via GitHub Pages or Netlify_
+
+---
+
+## 📚 References
+
+- [MDN: IndexedDB API](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API)  
+- [Web Audio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API)
+
+---
+
+## 📌 Status
+
+🚧 Still under development.  
+More features like playlists and metadata tagging are planned.
