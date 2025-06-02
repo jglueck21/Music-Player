@@ -99,7 +99,7 @@ Currently a **solo project**, but could be split as:
 
 ## 🔗 Live Demo
 
-_You can host this via GitHub Pages or Netlify_
+[🎧 Try the Music Player here](https://ocwave.netlify.app)
 
 ---
 
