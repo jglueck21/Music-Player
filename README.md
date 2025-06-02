@@ -20,13 +20,6 @@ A simple **web-based music player** that lets users upload songs, play them, and
 - Playback controls: Play / Pause / Skip / Loop / Volume  
 - Automatically saves last played song (IndexedDB)
 
-### ✅ Advanced Features
-
-- Visualizer using Web Audio API  
-- Mobile responsive layout  
-- Dark mode  
-- Offline-capable via IndexedDB
-
 ---
 
 ## 📁 Project Structure
@@ -92,13 +85,6 @@ Music-player/
 - ✅ Set up audio controls with JavaScript  
 - ✅ Integrated IndexedDB to persist song info
 
-### Phase 2 – Enhancements
-
-- ✅ Added song visualizer using Web Audio API  
-- ✅ Implemented drag-and-drop UI for uploads  
-- ✅ Created mobile-first responsive layout  
-- ✅ Introduced Dark Mode toggle
-
 ---
 
 ## 👨‍💻 Team Setup (for potential collaboration)
@@ -127,4 +113,4 @@ _You can host this via GitHub Pages or Netlify_
 ## 📌 Status
 
 🚧 Still under development.  
-More features like playlists and metadata tagging are planned.
+More features like Dark-Mode are planned.
